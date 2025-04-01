@@ -3,6 +3,10 @@ on:
  pull_request:
    types:
      - opened
+ push:
+   branches:
+   - main
+   - dev
  workflow_dispatch:
 jobs: 
  deploy:
