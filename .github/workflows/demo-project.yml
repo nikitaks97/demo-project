@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@v4
     - name: install dependencies
       run: npm ci
-      working-directory: /01 Starting Project/
+      working-directory: 01 Starting Project
     - name: lint
       run: npm run lint
     - name: test
